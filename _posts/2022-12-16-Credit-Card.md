@@ -57,7 +57,7 @@ Taking out a cash advance is one of the costliest things you can do with your cr
 
 As soon as you withdraw the cash, the interest starts accruing on the amount withdrawn. Also, cash advances on credit cards attract an additional fee. Some banks charge a flat amount, while others charge a percentage of the amount withdrawn.
 
-_For example, the cash advance fee on HDFC Regalia is 2.5% of the transaction amount._
+{% include alert.html text="For example, the cash advance fee on HDFC Regalia is 2.5% of the transaction amount." %}
 
 ## Maxing Out your Card
 
