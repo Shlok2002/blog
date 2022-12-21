@@ -64,7 +64,7 @@ As soon as you withdraw the cash, the interest starts accruing on the amount wit
 Using the majority, or all, of your available credit, is never a good idea. The amount of credit you use plays into your utilisation rate. The higher the utilisation rate, the lower your credit score.
 
 **If you frequently charge close to your monthly limit and have no problem paying off your bill, you can call the credit card company and ask for a credit increase.**
----
+
 
 ## FAQs
 
