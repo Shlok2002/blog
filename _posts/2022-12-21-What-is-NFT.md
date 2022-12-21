@@ -29,6 +29,8 @@ It is important to note that the artwork itself is not stored in the blockchain;
 
 NFTs are not limited to pieces of digital artwork, though a bulk of the market comprises these; NFTs can also include concert tickets, domain names, in-game limited edition items, real estate and anything that is unique and requires proof of ownership. The prices of NFTs are not uniform and depend on supply-demand characteristics. A word of caution: an expensive NFT becomes worthless if no one wants to buy it!
 
+---
+
 ## FAQs
 
 **Where can one buy NFTs?**
