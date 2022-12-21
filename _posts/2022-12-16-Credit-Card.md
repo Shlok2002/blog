@@ -1,10 +1,13 @@
 ---
-toc: false
+toc: true
 layout: post
 description: 7 Credit Card mistakes you didn't know you made
 categories: [Credit Cards, Finance]
 title: Credit Cards
 ---
+
+
+## Introduction
 
 Credit Cards work on the general principle of buy now and pay later. Apart from providing instant credit access, the cards also offer a host of other privileges, including cashback, reward points, discounts, and more.
 
@@ -65,6 +68,7 @@ Using the majority, or all, of your available credit, is never a good idea. The 
 
 **If you frequently charge close to your monthly limit and have no problem paying off your bill, you can call the credit card company and ask for a credit increase.**
 
+---
 
 ## FAQs
 
