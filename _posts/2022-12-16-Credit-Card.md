@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 layout: post
 description: 7 Credit Card mistakes you didn't know you made
 categories: [Credit Cards, Finance]
