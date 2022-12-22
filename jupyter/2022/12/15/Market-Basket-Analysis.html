@@ -4,21 +4,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Understanding MBA | Shlok’s Jupyter</title>
+<title>Fastpages Notebook Blog Post | Shlok’s Jupyter</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Understanding MBA" />
+<meta property="og:title" content="Fastpages Notebook Blog Post" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A collection of blogs and notebooks" />
-<meta property="og:description" content="A collection of blogs and notebooks" />
-<link rel="canonical" href="https://shlok2002.github.io/blog/2022/12/15/Market-Basket-Analysis.html" />
-<meta property="og:url" content="https://shlok2002.github.io/blog/2022/12/15/Market-Basket-Analysis.html" />
+<meta name="description" content="A tutorial of fastpages for Jupyter notebooks." />
+<meta property="og:description" content="A tutorial of fastpages for Jupyter notebooks." />
+<link rel="canonical" href="https://shlok2002.github.io/blog/jupyter/2022/12/15/Market-Basket-Analysis.html" />
+<meta property="og:url" content="https://shlok2002.github.io/blog/jupyter/2022/12/15/Market-Basket-Analysis.html" />
 <meta property="og:site_name" content="Shlok’s Jupyter" />
+<meta property="og:image" content="https://shlok2002.github.io/blog/images/chart-preview.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-12-15T00:00:00-06:00" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Understanding MBA" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://shlok2002.github.io/blog/images/chart-preview.png" />
+<meta property="twitter:title" content="Fastpages Notebook Blog Post" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-12-15T00:00:00-06:00","datePublished":"2022-12-15T00:00:00-06:00","description":"A collection of blogs and notebooks","headline":"Understanding MBA","mainEntityOfPage":{"@type":"WebPage","@id":"https://shlok2002.github.io/blog/2022/12/15/Market-Basket-Analysis.html"},"url":"https://shlok2002.github.io/blog/2022/12/15/Market-Basket-Analysis.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-12-15T00:00:00-06:00","datePublished":"2022-12-15T00:00:00-06:00","description":"A tutorial of fastpages for Jupyter notebooks.","headline":"Fastpages Notebook Blog Post","image":"https://shlok2002.github.io/blog/images/chart-preview.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://shlok2002.github.io/blog/jupyter/2022/12/15/Market-Basket-Analysis.html"},"url":"https://shlok2002.github.io/blog/jupyter/2022/12/15/Market-Basket-Analysis.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://shlok2002.github.io/blog/feed.xml" title="Shlok's Jupyter" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -89,16 +91,23 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">&lt;a name=&quot;understanding-mba&quot;&gt;Understanding MBA&lt;/a&gt;</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-12-15T00:00:00-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Fastpages Notebook Blog Post</h1><p class="page-description">A tutorial of fastpages for Jupyter notebooks.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-12-15T00:00:00-06:00" itemprop="datePublished">
         Dec 15, 2022
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      7 min read
+      11 min read
     
 </span></p>
 
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#jupyter">jupyter</a>
+        
+      
+      </p>
     
 
     
@@ -132,7 +141,29 @@ window.onload = wrap_img;
       </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <!--
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#Understanding-MBA">Understanding MBA </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#Applications">Applications </a></li>
+<li class="toc-entry toc-h2"><a href="#Case-Study">Case Study </a></li>
+<li class="toc-entry toc-h2"><a href="#Analysis-and-Findings">Analysis and Findings </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#1.-Support">1. Support </a></li>
+<li class="toc-entry toc-h3"><a href="#2.-Confidence">2. Confidence </a></li>
+<li class="toc-entry toc-h3"><a href="#3.-Lift">3. Lift </a></li>
+<li class="toc-entry toc-h3"><a href="#Conclusion">Conclusion </a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#Implementation-in-Python">Implementation in Python </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#Importing-libraries">Importing libraries </a></li>
+<li class="toc-entry toc-h2"><a href="#Load-Data">Load Data </a></li>
+<li class="toc-entry toc-h2"><a href="#Checking-for-missing-values">Checking for missing values </a></li>
+</ul>
+</li>
+</ul><!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -141,51 +172,121 @@ window.onload = wrap_img;
 
 <div class="container" id="notebook-container">
         
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<hr />
-<h2 id="Case-Study">Case Study<a class="anchor-link" href="#Case-Study"> </a></h2><p>For simplicity we are analyzing only 2 items – Bread and Butter. We want to know if there is any evidence that suggests that buying Bread leads to buying Butter.</p>
-<p><strong>Problem Statament:</strong> Is the purchase of Bread leads to the purchase of Butter?<br /><br />
+<h1 id="Understanding-MBA">
+<a class="anchor" href="#Understanding-MBA" aria-hidden="true"><span class="octicon octicon-link"></span></a>Understanding MBA<a class="anchor-link" href="#Understanding-MBA"> </a>
+</h1>
+<p>Market basket analysis (MBA), also known as association-rule mining, is a useful method of discovering customer purchasing patterns by extracting associations or co-occurrences from stores' transactional databases (Chen et al., 2005).  It is a modelling technique based upon the theory that if you buy a certain group of items, you are more (or less) likely to buy another group of items. For example, if you are in a supermarket and you buy a loaf of Bread, you are more likely to buy a packet of Butter at the same time than somebody who didn't buy the Bread. Another example, if you are buying a XiaoMi Power Bank in an online store, you are more likely to also buy a carrying case to go with the power bank. <a href="https://www.amazon.com">Amazon</a> knows this well from the transaction data of its millions of customers and thus recommends a case to you as seen below:</p>
+<p></p>
+<table><tr><td><img height="400" width="800" src="images/amazon.jpg"></td></tr></table>
+<p style="text-align: center">Credit: Amazon</p>
+<p>The set of items a customer buys is known as an itemset, and MBA tries to identify relationships from the purchases of itemset. The output of MBA consists of a series of product association rules. From the transaction data extracted from the shopping carts of online retailers or the point of sales system of retail stores, we can use MBA to extract interesting association rules between products. For example, if customers buy product A they also tend to buy product B.</p>
+<p>Typically we can extract the relationship between products in the form of a rule, an example of association rule:</p>
+
+<pre><code>IF {bread} THEN {butter}. 
+
+</code></pre>
+<p>In this example, if customers buy Bread they also tend to buy Butter. Some people often link products with high association to "complementary goods". In Economics 101, complementary good or service is consumed or used in conjunction with another good or service. Usually, the complementary good has little to no value when consumed alone, but when combined with another good or service, it adds to the overall value of the offering. For example a car and petrol. It would be of little value to buy petrol without owning a car. Complementary goods often have a negative cross-price elasticity of demand coefficient (Farnham, 2014). However, it is worth pointing out that, while complementary goods tend to have high association, not all products with high association rules are complementary goods. In MBA, we are more interested in product-pairs with high association rules i.e. products that are frequently purchased together. For example, in a retail store, MBA findings may show that Barbie dolls and candy are frequently purchased together, even though they are not technically complementary goods. In short, complementary goods are fairly obvious and common sense, but MBA seeks to uncover product associations that may not be so obvious and straighforward. In doing so, it is attempting to convert the abstract consumer tastes and preferences into association rules that are more insightful and actionable, from business perspective.</p>
+<hr>
+<h2 id="Applications">
+<a class="anchor" href="#Applications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Applications<a class="anchor-link" href="#Applications"> </a>
+</h2>
+<p>There are many real-life applications of MBA:</p>
+<ul>
+<li>
+<strong>Recommendation engine</strong> – showing related products as "Customers Who Bought This Item Also Bought" or “Frequently bought together” (as shown in the Amazon example above). It can also be applied to recommend videos and news article by analyzing the videos or news articles that are often watched or read together in a user session.
+<br>
+<br>
+</li>
+<li>
+<strong>Cross-sell / bundle products</strong> – selling associated products as a "bundle" instead of individual items. For example, transaction data may show that customers often buy a new phone with screen protector together. Phone retailers can then package new phone with high-margin screen protector together and sell them as a bundle, thereby increasing their sales.
+<br>
+<br>
+</li>
+<li>
+<strong>Arrangement of items in retail stores</strong> – associated items can be placed closer to each other, thereby invoking "impulse buying". For example it may be uncovered that customers who buy Barbie dolls also buy candy at the same time. Thus retailers can place high-margin candy near Barbie doll display, thereby tempting customers to buy them together.
+<br>
+<br>
+</li>
+<li>
+<strong>Detecting fraud</strong> – identifying related actions whenever a fraudulent transaction is performed. For example, in a fraudulent insurance claim for stolen vehicle, it may be analyzed (from historical data) that claimant frequently report the incident a few days late (action 1) and often refuse to cooperate with insurer on investigation (action 2). Insurers can identify these red flags once certain behaviours or actions are displayed by the claimants.
+<br>
+<br>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr>
+<h2 id="Case-Study">
+<a class="anchor" href="#Case-Study" aria-hidden="true"><span class="octicon octicon-link"></span></a>Case Study<a class="anchor-link" href="#Case-Study"> </a>
+</h2>
+<p>For simplicity we are analyzing only 2 items – Bread and Butter. We want to know if there is any evidence that suggests that buying Bread leads to buying Butter.</p>
+<p><strong>Problem Statament:</strong> Is the purchase of Bread leads to the purchase of Butter?<br><br>
 <strong>Hypothesis:</strong> There is significant evidence to show that buying Bread leads to buying Butter.</p>
 <p>Bread =&gt; Butter</p>
 <p>Antecedent =&gt; Consequent</p>
 <p>Let's take the example of a supermarket which generates 1,000 transactions monthly, of which Bread was purchased in 150 transactions, Butter in 130 transactions, and both together in 50 transactions.</p>
 <p>In set theory it can be represented as Bread only – 100, Butter only – 80, Bread and Butter – 50, as shown in the Venn diagram below:</p>
-<p><img src="/blog/images/copied_from_nb/images/set.jpg" alt="alt text" title="Example in a set" /></p>
+<p><img src="/blog/images/copied_from_nb/images/set.jpg" alt="alt text" title="Example in a set"></p>
 
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Analysis-and-Findings">Analysis and Findings<a class="anchor-link" href="#Analysis-and-Findings"> </a></h2><p>We can use MBA to extract the association rule between Bread and Butter. There are three metrics or criteria to evaluate the strength or quality of an association rule, which are support, confidence and lift.</p>
-<h3 id="1.-Support">1. Support<a class="anchor-link" href="#1.-Support"> </a></h3><p>Support measures the percentage of transactions containing a particular combination of items relative to the total number of transactions. In our example, this is the percentage of transactions where both Bread and Butter are bought together. We need to calculate this to know if this combination of items is significant or negligible? Generally, we want a high percentage i.e. high support in order to make sure it is a useful relationship. Typically, we will set a threshold, for example we will only look at a combination if more than 1% of transactions have this combination.</p>
+<h2 id="Analysis-and-Findings">
+<a class="anchor" href="#Analysis-and-Findings" aria-hidden="true"><span class="octicon octicon-link"></span></a>Analysis and Findings<a class="anchor-link" href="#Analysis-and-Findings"> </a>
+</h2>
+<p>We can use MBA to extract the association rule between Bread and Butter. There are three metrics or criteria to evaluate the strength or quality of an association rule, which are support, confidence and lift.</p>
+<h3 id="1.-Support">
+<a class="anchor" href="#1.-Support" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Support<a class="anchor-link" href="#1.-Support"> </a>
+</h3>
+<p>Support measures the percentage of transactions containing a particular combination of items relative to the total number of transactions. In our example, this is the percentage of transactions where both Bread and Butter are bought together. We need to calculate this to know if this combination of items is significant or negligible? Generally, we want a high percentage i.e. high support in order to make sure it is a useful relationship. Typically, we will set a threshold, for example we will only look at a combination if more than 1% of transactions have this combination.</p>
 <p>Support (antecedent (Bread) and consequent (Butter)) = Number of transactions having both items / Total transactions</p>
-<p><img src="/blog/images/copied_from_nb/images/support.jpg" alt="alt text" title="Support" /></p>
+<p><img src="/blog/images/copied_from_nb/images/support.jpg" alt="alt text" title="Support"></p>
 <p>Result: The support value of 5% means 5% of all transactions have this combination of Bread and Butter bought together. Since the value is above the threshold of 1%, it shows there is indeed <strong><em>support</em></strong> for this association and thus satisfy the first criteria.</p>
 
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<hr />
-<h3 id="2.-Confidence">2. Confidence<a class="anchor-link" href="#2.-Confidence"> </a></h3><p>Confidence measures the probability of finding a particular combination of items whenever antecedent is bought. In probability terms, confidence is the conditional probability of the consequent given the antecedent and is represented as P (consequent / antecedent). In our example, it is the probability of both Bread and Butter being bought together whenever Bread is bought. Typically, we may set a threshold, say we want this combination to occur at least 25% of times when Bread is bought.</p>
+<hr>
+<h3 id="2.-Confidence">
+<a class="anchor" href="#2.-Confidence" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Confidence<a class="anchor-link" href="#2.-Confidence"> </a>
+</h3>
+<p>Confidence measures the probability of finding a particular combination of items whenever antecedent is bought. In probability terms, confidence is the conditional probability of the consequent given the antecedent and is represented as P (consequent / antecedent). In our example, it is the probability of both Bread and Butter being bought together whenever Bread is bought. Typically, we may set a threshold, say we want this combination to occur at least 25% of times when Bread is bought.</p>
 <p>Confidence (antecedent i.e. Bread and consequent i.e. Butter) = P (Consequent (Butter) is bought GIVEN antecedent (Bread) is bought)</p>
-<p><img src="/blog/images/copied_from_nb/images/confidence.jpg" alt="alt text" title="Confidence" /></p>
+<p><img src="/blog/images/copied_from_nb/images/confidence.jpg" alt="alt text" title="Confidence"></p>
 <p>Result: The confidence value of 33.3% is above the threshold of 25%, indicating we can be <strong><em>confident</em></strong> that Butter will be bought whenever Bread is bought, and thus satisfy the second criteria.</p>
 
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<hr />
-<h3 id="3.-Lift">3. Lift<a class="anchor-link" href="#3.-Lift"> </a></h3><p>Lift is a metric to determine how much the purchase of antecedent influences the purchase of consequent. In our example, we want to know whether the purchase of Butter is independent of the purchase of Bread (or) is the purchase of Butter happening due to the purchase of Bread? In probability terms, we want to know which is higher, P (Butter) or P (Butter / Bread)? If the purchase of Butter is influenced by the purchase of Bread, then P (Butter / Bread) will be higher than P (Butter), or in other words, the ratio of P (Butter / Bread) over P (Butter) will be higher than 1.</p>
-<p><img src="/blog/images/copied_from_nb/images/lift.jpg" alt="alt text" title="Confidence" /></p>
+<hr>
+<h3 id="3.-Lift">
+<a class="anchor" href="#3.-Lift" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. Lift<a class="anchor-link" href="#3.-Lift"> </a>
+</h3>
+<p>Lift is a metric to determine how much the purchase of antecedent influences the purchase of consequent. In our example, we want to know whether the purchase of Butter is independent of the purchase of Bread (or) is the purchase of Butter happening due to the purchase of Bread? In probability terms, we want to know which is higher, P (Butter) or P (Butter / Bread)? If the purchase of Butter is influenced by the purchase of Bread, then P (Butter / Bread) will be higher than P (Butter), or in other words, the ratio of P (Butter / Bread) over P (Butter) will be higher than 1.</p>
+<p><img src="/blog/images/copied_from_nb/images/lift.jpg" alt="alt text" title="Confidence"></p>
 <p>Result: The lift value of 2.56 is greater than 1, it shows that the purchase of Butter is indeed influenced by the purchase of Bread rather than Butter's purchase being independent of Bread. The lift value of 2.56 also means that Bread's purchase <strong><em>lifts</em></strong> the Butter's purchase by 2.56 times.</p>
-<hr />
-<h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion"> </a></h3><p>Based on the findings above, we can justify our initial hypothesis as we</p>
+<hr>
+<h3 id="Conclusion">
+<a class="anchor" href="#Conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion<a class="anchor-link" href="#Conclusion"> </a>
+</h3>
+<p>Based on the findings above, we can justify our initial hypothesis as we</p>
 
 <pre><code>a) Have the support of 5% transactions for Bread and Butter in the same basket
 b) Have 33.3% confidence that Butter sales happen whenever Bread is purchased.
@@ -197,15 +298,21 @@ c) Knows the lift in Butter's sales is 2.56 times more, whenever Bread is purcha
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Implementation-in-Python"><a name="implementation-in-python">Implementation in Python</a><a class="anchor-link" href="#Implementation-in-Python"> </a></h1>
+<h1 id="Implementation-in-Python">
+<a class="anchor" href="#Implementation-in-Python" aria-hidden="true"><span class="octicon octicon-link"></span></a><a name="implementation-in-python">Implementation in Python</a><a class="anchor-link" href="#Implementation-in-Python"> </a>
+</h1>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Importing-libraries">Importing libraries<a class="anchor-link" href="#Importing-libraries"> </a></h2>
+<h2 id="Importing-libraries">
+<a class="anchor" href="#Importing-libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Importing libraries<a class="anchor-link" href="#Importing-libraries"> </a>
+</h2>
 </div>
 </div>
 </div>
@@ -267,9 +374,12 @@ Successfully installed mlxtend-0.21.0
 </div>
     
 
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Load-Data">Load Data<a class="anchor-link" href="#Load-Data"> </a></h2>
+<h2 id="Load-Data">
+<a class="anchor" href="#Load-Data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Load Data<a class="anchor-link" href="#Load-Data"> </a>
+</h2>
 </div>
 </div>
 </div>
@@ -280,7 +390,7 @@ Successfully installed mlxtend-0.21.0
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bread</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;BreadBasket_DMS.csv&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bread</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"BreadBasket_DMS.csv"</span><span class="p">)</span>
 <span class="n">bread</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
@@ -423,7 +533,7 @@ Successfully installed mlxtend-0.21.0
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+<pre>&lt;class 'pandas.core.frame.DataFrame'&gt;
 RangeIndex: 21293 entries, 0 to 21292
 Data columns (total 4 columns):
  #   Column       Non-Null Count  Dtype 
@@ -444,19 +554,24 @@ memory usage: 665.5+ KB
 </div>
     
 
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><div class="flash">
-    <svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
-    <strong>Note: </strong>There are 21,293 rows and 4 columns in the dataframe. <code>Date</code> and <code>Time</code> columns are encoded in &#8217;object&#8217; instead of Datetime, but fortunately there is a <code>Transaction</code> column which helps to identify each transaction. <code>Item</code> column contains the individual items in that transaction. For example, Transaction No. 3 contains items of "Hot chocolate", "Jam", and "Cookies" which are all transacted in the same time i.e 10.07.57 on 2016-10-30.
-</div></p>
+<p></p>
+<div class="flash">
+    <svg class="octicon octicon-info" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
+    <strong>Note: </strong>There are 21,293 rows and 4 columns in the dataframe. <code>Date</code> and <code>Time</code> columns are encoded in ’object’ instead of Datetime, but fortunately there is a <code>Transaction</code> column which helps to identify each transaction. <code>Item</code> column contains the individual items in that transaction. For example, Transaction No. 3 contains items of "Hot chocolate", "Jam", and "Cookies" which are all transacted in the same time i.e 10.07.57 on 2016-10-30.
+</div>
 
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Checking-for-missing-values">Checking for missing values<a class="anchor-link" href="#Checking-for-missing-values"> </a></h2>
+<h2 id="Checking-for-missing-values">
+<a class="anchor" href="#Checking-for-missing-values" aria-hidden="true"><span class="octicon octicon-link"></span></a>Checking for missing values<a class="anchor-link" href="#Checking-for-missing-values"> </a>
+</h2>
 </div>
 </div>
 </div>
@@ -504,8 +619,8 @@ dtype: int64</pre>
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">missing_value</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;NaN&quot;</span><span class="p">,</span> <span class="s2">&quot;NONE&quot;</span><span class="p">,</span> <span class="s2">&quot;None&quot;</span><span class="p">,</span> <span class="s2">&quot;Nan&quot;</span><span class="p">,</span> <span class="s2">&quot;nan&quot;</span><span class="p">,</span> <span class="s2">&quot;nil&quot;</span><span class="p">,</span> <span class="s2">&quot;none&quot;</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There are </span><span class="si">{0}</span><span class="s2"> missing values in the dataframe.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">bread</span><span class="p">[</span><span class="n">bread</span><span class="o">.</span><span class="n">Item</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">missing_value</span><span class="p">)])))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">missing_value</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"NaN"</span><span class="p">,</span> <span class="s2">"NONE"</span><span class="p">,</span> <span class="s2">"None"</span><span class="p">,</span> <span class="s2">"Nan"</span><span class="p">,</span> <span class="s2">"nan"</span><span class="p">,</span> <span class="s2">"nil"</span><span class="p">,</span> <span class="s2">"none"</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"There are </span><span class="si">{0}</span><span class="s2"> missing values in the dataframe."</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">bread</span><span class="p">[</span><span class="n">bread</span><span class="o">.</span><span class="n">Item</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">missing_value</span><span class="p">)])))</span>
 <span class="n">bread</span><span class="p">[</span><span class="n">bread</span><span class="o">.</span><span class="n">Item</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">missing_value</span><span class="p">)]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
@@ -636,12 +751,14 @@ dtype: int64</pre>
 </div>
     
 
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><div class="flash">
-    <svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
+<p></p>
+<div class="flash">
+    <svg class="octicon octicon-info" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
     <strong>Note: </strong>While there is no empty cell in the dataframe, a check using the popular missing value shows that there are 786 rows with "NONE" in the column <code>Item</code>. Since the items are not recorded, we will have to remove these rows.
-</div></p>
+</div>
 
 </div>
 </div>
@@ -653,8 +770,8 @@ dtype: int64</pre>
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bread</span> <span class="o">=</span> <span class="n">bread</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">bread</span><span class="p">[</span><span class="n">bread</span><span class="o">.</span><span class="n">Item</span> <span class="o">==</span> <span class="s2">&quot;NONE&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Number of rows:</span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">bread</span><span class="p">)))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bread</span> <span class="o">=</span> <span class="n">bread</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">bread</span><span class="p">[</span><span class="n">bread</span><span class="o">.</span><span class="n">Item</span> <span class="o">==</span> <span class="s2">"NONE"</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Number of rows:</span><span class="si">{0}</span><span class="s2">"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">bread</span><span class="p">)))</span>
 <span class="n">bread</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
@@ -789,7 +906,15 @@ dtype: int64</pre>
 
 
 
-  </div><a class="u-url" href="/blog/2022/12/15/Market-Basket-Analysis.html" hidden></a>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="Shlok2002/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/jupyter/2022/12/15/Market-Basket-Analysis.html" hidden></a>
 </article>
 
       </div>
