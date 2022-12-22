@@ -4,23 +4,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Fastpages Notebook Blog Post | Shlok’s Jupyter</title>
+<title>Market Basket Analysis | Shlok’s Jupyter</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Fastpages Notebook Blog Post" />
+<meta property="og:title" content="Market Basket Analysis" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A tutorial of fastpages for Jupyter notebooks." />
-<meta property="og:description" content="A tutorial of fastpages for Jupyter notebooks." />
-<link rel="canonical" href="https://shlok2002.github.io/blog/jupyter/2022/12/15/Market-Basket-Analysis.html" />
-<meta property="og:url" content="https://shlok2002.github.io/blog/jupyter/2022/12/15/Market-Basket-Analysis.html" />
+<meta name="description" content="Apriori for MBA and more" />
+<meta property="og:description" content="Apriori for MBA and more" />
+<link rel="canonical" href="https://shlok2002.github.io/blog/machine%20learning/analytics/2022/12/15/Market-Basket-Analysis.html" />
+<meta property="og:url" content="https://shlok2002.github.io/blog/machine%20learning/analytics/2022/12/15/Market-Basket-Analysis.html" />
 <meta property="og:site_name" content="Shlok’s Jupyter" />
-<meta property="og:image" content="https://shlok2002.github.io/blog/images/chart-preview.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-12-15T00:00:00-06:00" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://shlok2002.github.io/blog/images/chart-preview.png" />
-<meta property="twitter:title" content="Fastpages Notebook Blog Post" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Market Basket Analysis" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-12-15T00:00:00-06:00","datePublished":"2022-12-15T00:00:00-06:00","description":"A tutorial of fastpages for Jupyter notebooks.","headline":"Fastpages Notebook Blog Post","image":"https://shlok2002.github.io/blog/images/chart-preview.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://shlok2002.github.io/blog/jupyter/2022/12/15/Market-Basket-Analysis.html"},"url":"https://shlok2002.github.io/blog/jupyter/2022/12/15/Market-Basket-Analysis.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-12-15T00:00:00-06:00","datePublished":"2022-12-15T00:00:00-06:00","description":"Apriori for MBA and more","headline":"Market Basket Analysis","mainEntityOfPage":{"@type":"WebPage","@id":"https://shlok2002.github.io/blog/machine%20learning/analytics/2022/12/15/Market-Basket-Analysis.html"},"url":"https://shlok2002.github.io/blog/machine%20learning/analytics/2022/12/15/Market-Basket-Analysis.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://shlok2002.github.io/blog/feed.xml" title="Shlok's Jupyter" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -91,7 +89,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Fastpages Notebook Blog Post</h1><p class="page-description">A tutorial of fastpages for Jupyter notebooks.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-12-15T00:00:00-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Market Basket Analysis</h1><p class="page-description">Apriori for MBA and more</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-12-15T00:00:00-06:00" itemprop="datePublished">
         Dec 15, 2022
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -104,7 +102,10 @@ window.onload = wrap_img;
     
       <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
-        <a class="category-tags-link" href="/blog/categories/#jupyter">jupyter</a>
+        <a class="category-tags-link" href="/blog/categories/#machine learning">machine learning</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/blog/categories/#analytics">analytics</a>
         
       
       </p>
@@ -179,9 +180,7 @@ window.onload = wrap_img;
 <a class="anchor" href="#Understanding-MBA" aria-hidden="true"><span class="octicon octicon-link"></span></a>Understanding MBA<a class="anchor-link" href="#Understanding-MBA"> </a>
 </h1>
 <p>Market basket analysis (MBA), also known as association-rule mining, is a useful method of discovering customer purchasing patterns by extracting associations or co-occurrences from stores' transactional databases (Chen et al., 2005).  It is a modelling technique based upon the theory that if you buy a certain group of items, you are more (or less) likely to buy another group of items. For example, if you are in a supermarket and you buy a loaf of Bread, you are more likely to buy a packet of Butter at the same time than somebody who didn't buy the Bread. Another example, if you are buying a XiaoMi Power Bank in an online store, you are more likely to also buy a carrying case to go with the power bank. <a href="https://www.amazon.com">Amazon</a> knows this well from the transaction data of its millions of customers and thus recommends a case to you as seen below:</p>
-<p></p>
-<table><tr><td><img height="400" width="800" src="images/amazon.jpg"></td></tr></table>
-<p style="text-align: center">Credit: Amazon</p>
+<p><img src="/blog/images/copied_from_nb/images/amazon.jpg" alt="alt text" title="Credit: Amazon"></p>
 <p>The set of items a customer buys is known as an itemset, and MBA tries to identify relationships from the purchases of itemset. The output of MBA consists of a series of product association rules. From the transaction data extracted from the shopping carts of online retailers or the point of sales system of retail stores, we can use MBA to extract interesting association rules between products. For example, if customers buy product A they also tend to buy product B.</p>
 <p>Typically we can extract the relationship between products in the form of a rule, an example of association rule:</p>
 
@@ -914,7 +913,7 @@ dtype: int64</pre>
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/blog/jupyter/2022/12/15/Market-Basket-Analysis.html" hidden></a>
+</script><a class="u-url" href="/blog/machine%20learning/analytics/2022/12/15/Market-Basket-Analysis.html" hidden></a>
 </article>
 
       </div>
