@@ -6,7 +6,6 @@ categories: [Credit Cards, Finance]
 title: Credit Cards
 ---
 
-
 ## Introduction
 
 Credit Cards work on the general principle of buy now and pay later. Apart from providing instant credit access, the cards also offer a host of other privileges, including cashback, reward points, discounts, and more.
@@ -60,7 +59,7 @@ Taking out a cash advance is one of the costliest things you can do with your cr
 
 As soon as you withdraw the cash, the interest starts accruing on the amount withdrawn. Also, cash advances on credit cards attract an additional fee. Some banks charge a flat amount, while others charge a percentage of the amount withdrawn.
 
-{% include alert.html text="For example, the cash advance fee on HDFC Regalia is 2.5% of the transaction amount." %}
+_For example, the cash advance fee on HDFC Regalia is 2.5% of the transaction amount._
 
 ## Maxing Out your Card
 

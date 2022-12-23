@@ -6,6 +6,8 @@ categories: [web3]
 title: What is an NFT?
 ---
 
+## Background
+
 Jack Dorsey sells his first tweet ever as an NFT for $2.9 million, read the headline of major business newspapers on 24th March 2021. A year later, Twitter is going private, all thanks to Elon Musk, in what is said to be the largest Leveraged buyout (LBO) ever. Both Jack Dorsey and Elon Musk are successful entrepreneurs who have voiced their support for the Blockchain Revolution. This revolution is not going away anytime soon! Let’s get back to the question, can you sell a tweet? How do you do it, and what is that N-F-T doing there in the headline?
 
 ## What is an NFT?
