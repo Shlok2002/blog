@@ -1,8 +1,8 @@
 ---
 toc: true
 layout: post
-description: How random YouTube browsing led me into coding a basic text editor in under 6 hours in less than 500 lines of code.
-categories: [Python,Software Development]
+description: Python Editor
+categories: [python,software development]
 title: Using Python to Create a basic Text Editor
 ---
 
