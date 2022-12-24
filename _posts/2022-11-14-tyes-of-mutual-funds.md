@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description:  A ready reckoner for mutual funds
-categories: [Mutual Funds, Finance]
+categories: [mutual funds, finance]
 title: Types of mutual funds
 ---
 
