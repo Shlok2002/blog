@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: 7 Credit Card mistakes you didn't know you made
-categories: [Credit Cards, Finance]
+categories: [finance]
 title: Credit Cards
 ---
 
