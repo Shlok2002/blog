@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description:  A primer on financial planning
-categories: [Finance]
+categories: [finance]
 title: Financial Planning
 ---
 
