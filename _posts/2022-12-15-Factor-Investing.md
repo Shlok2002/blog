@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: The what and how of factor investing
-categories: [Finance,Investment 101]
+categories: [finance,investment 101]
 title: Factor Investing
 ---
 
