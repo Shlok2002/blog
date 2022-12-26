@@ -2,6 +2,7 @@
 toc: true
 layout: post
 description:  Just enough math to get by
+image: images/40ef2a90-ac21-407c-8bce-7247ccfbe73b.png
 categories: [machine learning, mathematics]
 title: Math for ML Engineers [Part 1]
 ---
