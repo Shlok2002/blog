@@ -2,6 +2,7 @@
 toc: true
 layout: post
 description: Using Python to Create a basic Text Editor
+image: images/Rich-Text-Editor-Toolbar-sm.png
 categories: [python,software development]
 title: Python Editor
 ---
