@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description:  Just enough math to get by
-categories: [machine learning, mathematics]
+categories: [machine_learning]
 title: Math for ML Engineers [Part 1]
 ---
 
