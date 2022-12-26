@@ -2,6 +2,7 @@
 toc: true
 layout: post
 description: Everything you need to know
+image: images/quant-funds.png
 categories: [finance, mutual funds]
 title: Quant Funds
 ---
