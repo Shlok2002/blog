@@ -7,6 +7,7 @@ categories: [machine learning, mathematics]
 title: Math for ML Engineers [Part 1]
 ---
 
+# Introduction
 
 When working with Machine Learning projects, you will come across a wide variety of equations that you need to implement in code. Mathematical notations capture a concept so eloquently but unfamiliarity with them makes them obscure.
 
