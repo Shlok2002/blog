@@ -2,6 +2,7 @@
 toc: true
 layout: post
 description: Strategies to make your money work for you
+image: images/Equity-Savings-Funds.jpg
 categories: [finance, investment 101]
 title: Creating Wealth
 ---
