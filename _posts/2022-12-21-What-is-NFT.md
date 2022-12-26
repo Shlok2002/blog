@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: A small primer on NFTs
-image: https://github.com/Shlok2002/Shlok2002.github.io/blob/main/assets/images/nft.jpg
+image: images/nft.jpg
 categories: [web3]
 title: What is an NFT?
 ---
