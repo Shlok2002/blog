@@ -2,6 +2,7 @@
 toc: true
 layout: post
 description:  Digital gold investing basics
+image: images/Digital-vs-Physical-Gold-1.png
 categories: [finance, digital gold]
 title: What is digital gold?
 ---
