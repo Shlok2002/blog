@@ -3,6 +3,7 @@ toc: true
 layout: post
 description: A small primer on NFTs
 image: images/nft.jpg
+sticky_rank: 1
 categories: [web3]
 title: What is an NFT?
 ---
