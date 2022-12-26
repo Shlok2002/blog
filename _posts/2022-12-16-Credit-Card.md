@@ -3,6 +3,7 @@ toc: true
 layout: post
 description: 7 Credit Card mistakes you didn't know you made
 image: images/credit-card.png
+sticky_rank: 3
 categories: [finance]
 title: Credit Cards
 ---
