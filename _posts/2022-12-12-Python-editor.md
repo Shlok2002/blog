@@ -1,9 +1,9 @@
 ---
 toc: true
 layout: post
-description: Python Editor
+description: Using Python to Create a basic Text Editor
 categories: [python,software development]
-title: Using Python to Create a basic Text Editor
+title: Python Editor
 ---
 
 ### Background
