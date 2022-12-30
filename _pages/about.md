@@ -7,7 +7,7 @@ permalink: /about/
 <center>
 <!-- -->
 <h1>Shlok Kamat</h1>
-<img src="/assets/profile.jpg" alt="Shlok Kamat" height="300" width="300" style="border-radius: 50%"> 
+<img src="/images/profile.jpg" alt="Shlok Kamat" height="300" width="300" style="border-radius: 50%"> 
 
 <h2>Analytics, Finance and Green Energy</h2>
 </center>
@@ -28,7 +28,7 @@ permalink: /about/
 <br />
 
 
-<p>I am an undergraduate student at Shiv Nadar Institution of Eminenc  majoring in electrical and electronics engineering. At university, I research modern machine learning algorithms for applications in content creation, finance, and energy analytics. I enjoy performing exploratory data analyses on public data sets and creating beautiful and intuitive visualisations. I am interested in leveraging the power of data to solve complex business problems in renewable energy and green finance.</p>
+<p>I am an undergraduate student at Shiv Nadar Institution of Eminence majoring in electrical and electronics engineering. At university, I research modern machine learning algorithms for applications in content creation, finance, and energy analytics. I enjoy performing exploratory data analyses on public data sets and creating beautiful and intuitive visualisations. I am interested in leveraging the power of data to solve complex business problems in renewable energy and green finance.</p>
 
 
 <p>I have a diverse portfolio of work experiences in technical, business and marketing segments from my internships. I thrive in entrepreneurial environments collaborating with cross-functional and dynamic teams, solving complex problems.</p>
