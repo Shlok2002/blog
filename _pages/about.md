@@ -35,17 +35,3 @@ permalink: /about/
 
 <p>Outside academics, I am an F1 racing fan. I am intrigued by finance and think of myself as a long-term investor. I enjoy reading about a variety of topics. I am best reached by email at ks649@snu.edu.in. Feel free to reach out about my research or anything else I might be able to help with.</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-[^1]: [curriculum vitae](https://shlok-kamat.github.io/assets/RESUME.pdf)
