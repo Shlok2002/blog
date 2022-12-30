@@ -7,7 +7,7 @@ permalink: /about/
 <center>
 <!-- -->
 <h1>Shlok Kamat</h1>
-<img src="/images/profile.jpg" alt="Shlok Kamat" height="300" width="300" style="border-radius: 50%"> 
+<img src="https://media.licdn.com/dms/image/C4D03AQF5W7Uc1QV0PQ/profile-displayphoto-shrink_400_400/0/1658177434236?e=1677110400&v=beta&t=wKTKoX-pc_dy3rJ1fba-UrChCJiqyfufDky7SRz4Cd0" alt="Shlok Kamat" height="300" width="300" style="border-radius: 50%"> 
 
 <h2>Analytics, Finance and Green Energy</h2>
 </center>
