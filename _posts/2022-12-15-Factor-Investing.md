@@ -3,7 +3,7 @@ toc: true
 layout: post
 description: The what and how of factor investing
 image: images/risk-low-return-high.jpg
-categories: [finance,investment 101]
+categories: [finance]
 title: Factor Investing
 ---
 
